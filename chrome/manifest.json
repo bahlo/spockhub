@@ -1,0 +1,10 @@
+{
+  "name": "Spockhub",
+  "version": "0.1.0",
+  "description": "Switch to GitHub dark theme",
+  "content_scripts": [ {
+    "js": [ "spockhub.js" ],
+    "matches": [ "https://github.com/*" ]
+  }],
+  "manifest_version": 2
+}
