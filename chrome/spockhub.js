@@ -2,10 +2,12 @@
 (function() {
   var element, _i, _len, _ref;
 
-  _ref = [document.querySelector('body'), document.querySelector('body > .wrapper > .header')];
+  _ref = [document.querySelector('body'), document.querySelector('body > .wrapper > .header'), document.querySelector('body > #wrapper > .header')];
   for (_i = 0, _len = _ref.length; _i < _len; _i++) {
     element = _ref[_i];
-    element.className += ' enterprise';
+    if (element != null) {
+      element.className += ' enterprise';
+    }
   }
 
 }).call(this);

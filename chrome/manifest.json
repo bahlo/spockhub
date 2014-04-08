@@ -4,7 +4,7 @@
   "description": "Switch to GitHub dark theme",
   "content_scripts": [ {
     "js": [ "spockhub.js" ],
-    "matches": [ "https://github.com/*" ]
+    "matches": [ "https://github.com/*", "https://gist.github.com/*" ]
   }],
   "manifest_version": 2
 }

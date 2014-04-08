@@ -1,4 +1,5 @@
-element.className += ' enterprise' for element in [
+element?.className += ' enterprise' for element in [
     document.querySelector 'body'
     document.querySelector 'body > .wrapper > .header'
+    document.querySelector 'body > #wrapper > .header'
   ]
