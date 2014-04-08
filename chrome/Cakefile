@@ -1,0 +1,29 @@
+fs = require 'fs'
+path = require 'path'
+{spawn, exec} = require 'child_process'
+
+file = 'spockhub.coffee'
+
+task 'build', 'compile source', ->
+  build file
+
+task 'watch', 'compile and watch', ->
+  watch file
+
+launch = (cmd, options=[], callback) ->
+  app = spawn cmd, options
+  app.stdout.pipe(process.stdout)
+  app.stderr.pipe(process.stderr)
+  app.on 'exit', (status) ->
+    if status is 0
+      callback?()
+    else
+      process.exit status
+
+build = (from, callback) ->
+  options = ['-c', from]
+  launch 'coffee', options, callback
+
+watch = (from, callback) ->
+  options = ['-cw', from]
+  launch 'coffee', options, callback
