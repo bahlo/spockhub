@@ -1,5 +1,5 @@
 # Spockhub
-A Chrome extension to switch to the beatiful dark bar at GitHub which is used
+A Chrome extension to switch to the beautiful dark bar at GitHub which is used
 for Enterprise setups.
 
 ![](screenshot.png)
