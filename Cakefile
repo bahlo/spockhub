@@ -6,7 +6,7 @@ src = 'src'
 targets = [
   'chrome'
   'safari/Spockhub.safariextension'
-  'firefox/lib'
+  'firefox/data'
 ]
 
 task 'build', 'compile source', ->

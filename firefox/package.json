@@ -5,6 +5,5 @@
   "description": "Everyone likes the dark bar from GitHub Enterprise",
   "author": "Arne Bahlo",
   "license": "WTFPL",
-  "version": "0.2.0",
-  "main": "spockhub.js"
+  "version": "0.2.0"
 }
