@@ -1,4 +1,5 @@
-var pageMod = require('sdk/page-mod');
+var data = require("sdk/self").data,
+    pageMod = require('sdk/page-mod');
 
 pageMod.PageMod({
   include: '*.github.com',
