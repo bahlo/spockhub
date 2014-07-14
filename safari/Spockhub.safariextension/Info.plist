@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Erikmitk</string>
+	<string>Arne Bahlo</string>
 	<key>Builder Version</key>
-	<string>9537.75.14</string>
+	<string>10538.43.40</string>
 	<key>CFBundleDisplayName</key>
 	<string>Spockhub</string>
 	<key>CFBundleIdentifier</key>
-	<string>net.kalaxy.spockhub</string>
+	<string>me.arne.spockhub</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>0.2.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Chrome</key>
@@ -28,6 +28,10 @@
 			</array>
 		</dict>
 	</dict>
+	<key>Description</key>
+	<string>Everyone likes the dark bar from GitHub Enterprise</string>
+	<key>DeveloperIdentifier</key>
+	<string>AK9NEP7BV6</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -44,5 +48,7 @@
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Website</key>
+	<string>https://github.com/bahlo/spockhub</string>
 </dict>
 </plist>
