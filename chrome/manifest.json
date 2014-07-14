@@ -1,7 +1,7 @@
 {
   "name": "Spockhub",
-  "version": "0.1.0",
-  "description": "Switch to GitHub dark theme",
+  "version": "0.2.0",
+  "description": "Everyone likes the dark bar from GitHub Enterprise",
   "content_scripts": [ {
     "js": [ "spockhub.js" ],
     "matches": [ "https://github.com/*", "https://gist.github.com/*" ]
