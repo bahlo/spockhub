@@ -1,4 +1,4 @@
-var data = require("sdk/self").data,
+var data = require('sdk/self').data,
     pageMod = require('sdk/page-mod');
 
 pageMod.PageMod({
